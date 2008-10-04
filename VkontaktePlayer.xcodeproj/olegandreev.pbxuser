@@ -13,6 +13,20 @@
 			FE221D640E97E29000671AD7 /* VkontaktePlayer */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					133,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -20,7 +34,7 @@
 					20,
 					243,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -35,17 +49,15 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 244834960;
-			PBXWorkspaceStateSaveDate = 244834960;
+			PBXPerProjectTemplateStateSaveDate = 244838464;
+			PBXWorkspaceStateSaveDate = 244838464;
 		};
 		perUserProjectItems = {
-			FE221D790E97E98C00671AD7 /* PBXBookmark */ = FE221D790E97E98C00671AD7 /* PBXBookmark */;
-			FE221D7C0E97E9DA00671AD7 /* PBXTextBookmark */ = FE221D7C0E97E9DA00671AD7 /* PBXTextBookmark */;
-			FE221D8A0E97EB0600671AD7 /* PBXTextBookmark */ = FE221D8A0E97EB0600671AD7 /* PBXTextBookmark */;
-			FE221D8B0E97EB0600671AD7 /* PBXTextBookmark */ = FE221D8B0E97EB0600671AD7 /* PBXTextBookmark */;
-			FE221D8E0E97EB5F00671AD7 /* PBXTextBookmark */ = FE221D8E0E97EB5F00671AD7 /* PBXTextBookmark */;
-			FE221D8F0E97EB5F00671AD7 /* PBXTextBookmark */ = FE221D8F0E97EB5F00671AD7 /* PBXTextBookmark */;
-			FE221D930E97EB7900671AD7 /* PBXTextBookmark */ = FE221D930E97EB7900671AD7 /* PBXTextBookmark */;
+			FE1369E30E97F66200BF4F9F /* PBXBookmark */ = FE1369E30E97F66200BF4F9F /* PBXBookmark */;
+			FE1369E70E97F67700BF4F9F /* PBXTextBookmark */ = FE1369E70E97F67700BF4F9F /* PBXTextBookmark */;
+			FE1369E90E97F68600BF4F9F /* PBXTextBookmark */ = FE1369E90E97F68600BF4F9F /* PBXTextBookmark */;
+			FE1369EA0E97F68F00BF4F9F /* PBXTextBookmark */ = FE1369EA0E97F68F00BF4F9F /* PBXTextBookmark */;
+			FE1369EB0E97F69300BF4F9F /* PBXTextBookmark */ = FE1369EB0E97F69300BF4F9F /* PBXTextBookmark */;
 		};
 		sourceControlManager = FE221D730E97E29700671AD7 /* Source Control */;
 		userBuildSettings = {
@@ -56,6 +68,66 @@
 		executables = (
 			FE221D640E97E29000671AD7 /* VkontaktePlayer */,
 		);
+	};
+	E8F5E25803AEB7C803A81C6F /* rb_main.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 748}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 495}";
+			sepNavWindowFrame = "{{38, 126}, {928, 876}}";
+		};
+	};
+	FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 725}}";
+			sepNavSelRange = "{393, 0}";
+			sepNavVisRange = "{0, 424}";
+			sepNavWindowFrame = "{{376, 134}, {928, 876}}";
+		};
+	};
+	FE1369E30E97F66200BF4F9F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
+	};
+	FE1369E70E97F67700BF4F9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
+		name = "PlaylistController.rb: 17";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FE1369E90E97F68600BF4F9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
+		name = "PlaylistController.rb: 17";
+		rLen = 0;
+		rLoc = 393;
+		rType = 0;
+		vrLen = 428;
+		vrLoc = 0;
+	};
+	FE1369EA0E97F68F00BF4F9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
+		name = "PlaylistController.rb: 17";
+		rLen = 0;
+		rLoc = 393;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FE1369EB0E97F69300BF4F9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
+		name = "PlaylistController.rb: 17";
+		rLen = 0;
+		rLoc = 393;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
 	};
 	FE221D640E97E29000671AD7 /* VkontaktePlayer */ = {
 		isa = PBXExecutable;
@@ -91,77 +163,5 @@
 	FE221D740E97E29700671AD7 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
-	};
-	FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {869, 740}}";
-			sepNavSelRange = "{435, 0}";
-			sepNavVisRange = "{0, 435}";
-			sepNavWindowFrame = "{{130, 42}, {928, 876}}";
-		};
-	};
-	FE221D790E97E98C00671AD7 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */;
-	};
-	FE221D7C0E97E9DA00671AD7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */;
-		name = "PlaylistSynchronizer.rb: 11";
-		rLen = 20;
-		rLoc = 182;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	FE221D8A0E97EB0600671AD7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */;
-		name = "PlaylistSynchronizer.rb: 15";
-		rLen = 0;
-		rLoc = 307;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	FE221D8B0E97EB0600671AD7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */;
-		name = "PlaylistSynchronizer.rb: 11";
-		rLen = 20;
-		rLoc = 182;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	FE221D8E0E97EB5F00671AD7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */;
-		name = "PlaylistSynchronizer.rb: 11";
-		rLen = 20;
-		rLoc = 182;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	FE221D8F0E97EB5F00671AD7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */;
-		name = "PlaylistSynchronizer.rb: 11";
-		rLen = 20;
-		rLoc = 182;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
-	};
-	FE221D930E97EB7900671AD7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */;
-		name = "PlaylistSynchronizer.rb: 23";
-		rLen = 0;
-		rLoc = 435;
-		rType = 0;
-		vrLen = 435;
-		vrLoc = 0;
 	};
 }

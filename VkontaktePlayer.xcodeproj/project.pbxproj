@@ -13,7 +13,7 @@
 		4DDCA70A0ACC9A6100E082CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */; };
-		FE221D780E97E83300671AD7 /* PlaylistSynchronizer.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */; };
+		FE1369D40E97F0B200BF4F9F /* PlaylistController.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		4DDCA7120ACC9A6100E082CE /* VkontaktePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VkontaktePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /System/Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
 		E8F5E25803AEB7C803A81C6F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
-		FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text.script.ruby; path = PlaylistSynchronizer.rb; sourceTree = "<group>"; tabWidth = 2; usesTabs = 0; wrapsLines = 1; };
+		FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = PlaylistController.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				FE221D770E97E83300671AD7 /* PlaylistSynchronizer.rb */,
+				FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -174,7 +174,7 @@
 				4DDCA7060ACC9A6100E082CE /* MainMenu.nib in Resources */,
 				4DDCA7070ACC9A6100E082CE /* InfoPlist.strings in Resources */,
 				4DDCA7080ACC9A6100E082CE /* rb_main.rb in Resources */,
-				FE221D780E97E83300671AD7 /* PlaylistSynchronizer.rb in Resources */,
+				FE1369D40E97F0B200BF4F9F /* PlaylistController.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
