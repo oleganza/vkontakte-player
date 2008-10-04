@@ -36,7 +36,7 @@ module Vkontakte
     end
     
     def handle(method, *args)
-      #rescue proxy unvailability thing here
+      #rescue proxy unavailability thing here
       begin
         args.insert 0, (path[0,1] == "/" ? path : "/#{path}")
         response = connection.send(method, *args)
@@ -61,7 +61,7 @@ module Vkontakte
         'Content-Type' => 'application/x-www-form-urlencoded',
         'User-Agent' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1',
         'Referer' => "http://#{DOMAIN}/index.php",
-        'Cookie' => account ? Cookies.new(account).to_s : ''
+        'Cookie' => @account ? Cookies.new(account).to_s : ''
       }
     end
     

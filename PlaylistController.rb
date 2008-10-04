@@ -20,7 +20,6 @@ class PlaylistController < OSX::NSWindowController
   def update(sender)
     account = ::Vkontakte::Account.authenticate(@emailField.stringValue, @passwordField.stringValue)
     clear_log
-    log account.inspect
     list = account.playlist
     log "Playlist size: #{list.size}"
   rescue => e
