@@ -58,6 +58,8 @@
 			FE1369E90E97F68600BF4F9F /* PBXTextBookmark */ = FE1369E90E97F68600BF4F9F /* PBXTextBookmark */;
 			FE1369EA0E97F68F00BF4F9F /* PBXTextBookmark */ = FE1369EA0E97F68F00BF4F9F /* PBXTextBookmark */;
 			FE1369EB0E97F69300BF4F9F /* PBXTextBookmark */ = FE1369EB0E97F69300BF4F9F /* PBXTextBookmark */;
+			FE1369EC0E97F6D000BF4F9F /* PBXTextBookmark */ = FE1369EC0E97F6D000BF4F9F /* PBXTextBookmark */;
+			FE1369ED0E97F73B00BF4F9F /* PBXTextBookmark */ = FE1369ED0E97F73B00BF4F9F /* PBXTextBookmark */;
 		};
 		sourceControlManager = FE221D730E97E29700671AD7 /* Source Control */;
 		userBuildSettings = {
@@ -79,9 +81,9 @@
 	};
 	FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {869, 725}}";
-			sepNavSelRange = "{393, 0}";
-			sepNavVisRange = "{0, 424}";
+			sepNavIntBoundsRect = "{{0, 0}, {869, 748}}";
+			sepNavSelRange = "{443, 0}";
+			sepNavVisRange = "{0, 544}";
 			sepNavWindowFrame = "{{376, 134}, {928, 876}}";
 		};
 	};
@@ -94,7 +96,7 @@
 		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
 		name = "PlaylistController.rb: 17";
 		rLen = 0;
-		rLoc = 341;
+		rLoc = 461;
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 0;
@@ -104,7 +106,7 @@
 		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
 		name = "PlaylistController.rb: 17";
 		rLen = 0;
-		rLoc = 393;
+		rLoc = 513;
 		rType = 0;
 		vrLen = 428;
 		vrLoc = 0;
@@ -114,7 +116,7 @@
 		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
 		name = "PlaylistController.rb: 17";
 		rLen = 0;
-		rLoc = 393;
+		rLoc = 513;
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 0;
@@ -124,10 +126,38 @@
 		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
 		name = "PlaylistController.rb: 17";
 		rLen = 0;
-		rLoc = 393;
+		rLoc = 513;
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 0;
+	};
+	FE1369EC0E97F6D000BF4F9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
+		name = "PlaylistController.rb: 20";
+		rLen = 0;
+		rLoc = 543;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FE1369ED0E97F73B00BF4F9F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */;
+		name = "PlaylistController.rb: 21";
+		rLen = 0;
+		rLoc = 544;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 0;
+	};
+	FE136A000E97FB4100BF4F9F /* Request.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 748}}";
+			sepNavSelRange = "{36, 0}";
+			sepNavVisRange = "{0, 42}";
+			sepNavWindowFrame = "{{61, 105}, {928, 876}}";
+		};
 	};
 	FE221D640E97E29000671AD7 /* VkontaktePlayer */ = {
 		isa = PBXExecutable;

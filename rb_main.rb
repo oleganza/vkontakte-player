@@ -8,6 +8,14 @@
 
 require 'osx/cocoa'
 
+require 'net/http'
+
+require 'iconv'
+require 'cgi'
+require 'md5'
+
+$KCODE = 'u'
+
 def rb_main_init
   path = OSX::NSBundle.mainBundle.resourcePath.fileSystemRepresentation
   rbfiles = Dir.entries(path).select {|x| /\.rb\z/ =~ x}

@@ -14,6 +14,9 @@
 		4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */; };
 		FE1369D40E97F0B200BF4F9F /* PlaylistController.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */; };
+		FE1369FD0E97FA2600BF4F9F /* Account.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE1369FC0E97FA2600BF4F9F /* Account.rb */; };
+		FE136A010E97FB4100BF4F9F /* Request.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE136A000E97FB4100BF4F9F /* Request.rb */; };
+		FE136A030E97FBAD00BF4F9F /* Cookies.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE136A020E97FBAD00BF4F9F /* Cookies.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /System/Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
 		E8F5E25803AEB7C803A81C6F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = PlaylistController.rb; sourceTree = "<group>"; };
+		FE1369FC0E97FA2600BF4F9F /* Account.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Account.rb; sourceTree = "<group>"; };
+		FE136A000E97FB4100BF4F9F /* Request.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Request.rb; sourceTree = "<group>"; };
+		FE136A020E97FBAD00BF4F9F /* Cookies.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Cookies.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +52,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FE136A020E97FBAD00BF4F9F /* Cookies.rb */,
+				FE1369FC0E97FA2600BF4F9F /* Account.rb */,
 				FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */,
+				FE136A000E97FB4100BF4F9F /* Request.rb */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -175,6 +184,9 @@
 				4DDCA7070ACC9A6100E082CE /* InfoPlist.strings in Resources */,
 				4DDCA7080ACC9A6100E082CE /* rb_main.rb in Resources */,
 				FE1369D40E97F0B200BF4F9F /* PlaylistController.rb in Resources */,
+				FE1369FD0E97FA2600BF4F9F /* Account.rb in Resources */,
+				FE136A010E97FB4100BF4F9F /* Request.rb in Resources */,
+				FE136A030E97FBAD00BF4F9F /* Cookies.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

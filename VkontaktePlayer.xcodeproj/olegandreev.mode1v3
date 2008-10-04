@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>FE1369E50E97F67700BF4F9F</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>PlaylistController.rb</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>FE1369E60E97F67700BF4F9F</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>PlaylistController.rb</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>FE1369EB0E97F69300BF4F9F</string>
-						<key>history</key>
-						<array>
-							<string>FE1369E30E97F66200BF4F9F</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {928, 779}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>376 190 928 820 0 0 1680 1028 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -562,11 +521,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>FE1369E50E97F67700BF4F9F</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FE221D7D0E97E9DA00671AD7</string>
 		<string>/Users/olegandreev/Work/vkontakte-client/VkontaktePlayer/VkontaktePlayer.xcodeproj</string>
-		<string>FE1369E50E97F67700BF4F9F</string>
 	</array>
 	<key>WindowString</key>
 	<string>518 551 690 397 0 0 1680 1028 </string>
