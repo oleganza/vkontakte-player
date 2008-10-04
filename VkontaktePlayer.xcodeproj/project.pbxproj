@@ -11,13 +11,16 @@
 		4DDCA7070ACC9A6100E082CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		4DDCA7080ACC9A6100E082CE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = E8F5E25803AEB7C803A81C6F /* rb_main.rb */; };
 		4DDCA70A0ACC9A6100E082CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
-		4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */; };
+		4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Link Binary With Libraries (2) (2) (2) (2) (2) */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Link Binary With Libraries (2) (2) (2) (2) (2) */ = {isa = PBXBuildFile; fileRef = E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */; };
 		FE1369D40E97F0B200BF4F9F /* PlaylistController.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */; };
 		FE1369FD0E97FA2600BF4F9F /* Account.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE1369FC0E97FA2600BF4F9F /* Account.rb */; };
 		FE136A010E97FB4100BF4F9F /* Request.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE136A000E97FB4100BF4F9F /* Request.rb */; };
 		FE136A030E97FBAD00BF4F9F /* Cookies.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE136A020E97FBAD00BF4F9F /* Cookies.rb */; };
 		FE136A0D0E98074900BF4F9F /* Audio.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE136A0C0E98074900BF4F9F /* Audio.rb */; };
+		FE136C8E0E98218300BF4F9F /* Playlist.rb in Resources */ = {isa = PBXBuildFile; fileRef = FE136C8D0E98218300BF4F9F /* Playlist.rb */; };
+		FE9CA7270E98290E00E4B151 /* specifications in Resources */ = {isa = PBXBuildFile; fileRef = FE9CA6E20E98290D00E4B151 /* specifications */; };
+		FE9CA7280E98290E00E4B151 /* gems in Resources */ = {isa = PBXBuildFile; fileRef = FE9CA6E70E98290E00E4B151 /* gems */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +31,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4DDCA7110ACC9A6100E082CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DDCA7120ACC9A6100E082CE /* VkontaktePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VkontaktePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDCA7120ACC9A6100E082CE /* VkontaktePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = VkontaktePlayer.app; path = /Users/olegandreev/Documents/Release/VkontaktePlayer.app; sourceTree = "<absolute>"; };
 		E8F5E24E03AEB6EC03A81C6F /* RubyCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RubyCocoa.framework; path = /System/Library/Frameworks/RubyCocoa.framework; sourceTree = "<absolute>"; };
 		E8F5E25803AEB7C803A81C6F /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = PlaylistController.rb; sourceTree = "<group>"; };
@@ -36,16 +39,20 @@
 		FE136A000E97FB4100BF4F9F /* Request.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Request.rb; sourceTree = "<group>"; };
 		FE136A020E97FBAD00BF4F9F /* Cookies.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Cookies.rb; sourceTree = "<group>"; };
 		FE136A0C0E98074900BF4F9F /* Audio.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Audio.rb; sourceTree = "<group>"; };
+		FE136C8D0E98218300BF4F9F /* Playlist.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Playlist.rb; sourceTree = "<group>"; };
+		FE9CA6E20E98290D00E4B151 /* specifications */ = {isa = PBXFileReference; lastKnownFileType = folder; name = specifications; path = "../../Work/vkontakte-client/VkontaktePlayer/specifications"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE9CA6E70E98290E00E4B151 /* gems */ = {isa = PBXFileReference; lastKnownFileType = folder; name = gems; path = "../../Work/vkontakte-client/VkontaktePlayer/gems"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4DDCA70B0ACC9A6100E082CE /* Frameworks */ = {
+		4DDCA70B0ACC9A6100E082CE /* Link Binary With Libraries (2) (2) (2) (2) (2) */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Frameworks */,
-				4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Frameworks */,
+				4DDCA70C0ACC9A6100E082CE /* Cocoa.framework in Link Binary With Libraries (2) (2) (2) (2) (2) */,
+				4DDCA70D0ACC9A6100E082CE /* RubyCocoa.framework in Link Binary With Libraries (2) (2) (2) (2) (2) */,
 			);
+			name = "Link Binary With Libraries (2) (2) (2) (2) (2)";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			children = (
 				FE136A020E97FBAD00BF4F9F /* Cookies.rb */,
 				FE136A0C0E98074900BF4F9F /* Audio.rb */,
+				FE136C8D0E98218300BF4F9F /* Playlist.rb */,
 				FE1369FC0E97FA2600BF4F9F /* Account.rb */,
 				FE1369D30E97F0B200BF4F9F /* PlaylistController.rb */,
 				FE136A000E97FB4100BF4F9F /* Request.rb */,
@@ -84,7 +92,6 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DDCA7120ACC9A6100E082CE /* VkontaktePlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +121,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FE9CA6E20E98290D00E4B151 /* specifications */,
+				FE9CA6E70E98290E00E4B151 /* gems */,
 				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
@@ -149,7 +158,7 @@
 				4DDCA7040ACC9A6100E082CE /* Headers */,
 				4DDCA7050ACC9A6100E082CE /* Resources */,
 				4DDCA7090ACC9A6100E082CE /* Sources */,
-				4DDCA70B0ACC9A6100E082CE /* Frameworks */,
+				4DDCA70B0ACC9A6100E082CE /* Link Binary With Libraries (2) (2) (2) (2) (2) */,
 			);
 			buildRules = (
 			);
@@ -191,6 +200,9 @@
 				FE136A010E97FB4100BF4F9F /* Request.rb in Resources */,
 				FE136A030E97FBAD00BF4F9F /* Cookies.rb in Resources */,
 				FE136A0D0E98074900BF4F9F /* Audio.rb in Resources */,
+				FE136C8E0E98218300BF4F9F /* Playlist.rb in Resources */,
+				FE9CA7270E98290E00E4B151 /* specifications in Resources */,
+				FE9CA7280E98290E00E4B151 /* gems in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

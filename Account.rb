@@ -49,10 +49,10 @@ module Vkontakte
         prev = current
         current = get_playlist_with_offset(i)
         puts current.map{|h| h.title}.join("\n")
+        break if ENV['SHORT_VKPLAYLIST'] and i > 0
         i += 50
-        sleep 1
       end
-      list.uniq
+      Playlist.new(list.uniq)
     end
     
     def get_playlist_with_offset(offset)

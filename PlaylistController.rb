@@ -22,6 +22,9 @@ class PlaylistController < OSX::NSWindowController
     clear_log
     list = account.playlist
     log "Playlist size: #{list.size}"
+    log "Updating files in ~/Music/Vkontakte/..."
+    i = list.update_files
+    log "Files downloaded: #{i}"
   rescue => e
     log e.inspect
   end

@@ -20,7 +20,13 @@ module Vkontakte
       end
     end
     
+    def wait!
+      @sleep ? sleep(@sleep) : nil
+      @sleep = 1
+    end
+    
     def get(params = {})
+      wait!
       with_params params do
         handle :get, headers
       end
